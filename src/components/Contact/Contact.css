@@ -1,0 +1,26 @@
+.contacts>h2 {
+    font-size: 25px;
+    color: var(--cv--colorTitle);
+}
+
+.contacts>h2::before {
+    content: "";
+    border-left: 5px solid var(--cv--bgColorSkills);
+    margin-right: var(--cv--margin-xs);
+}
+
+.contact {
+    display: flex;
+    gap: var(--cv--gap-xs);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact>img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact>a {
+    color: var(--cv--colorParagraph);
+}

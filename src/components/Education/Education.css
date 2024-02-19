@@ -1,0 +1,32 @@
+.education>ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.education>h2 {
+    font-size: 25px;
+    color: var(--cv--colorTitle);
+}
+
+.education>h2::before {
+    content: "";
+    border-left: 5px solid var(--cv--bgColorSkills);
+    margin-right: var(--cv--margin-xs);
+}
+
+.education>ul>li {
+    color: var( --cv--colorParagraph);
+}
+
+.education>ul>li::before {
+    content: "*";
+    color: var(--cv--bgColorSkills);
+    margin-right: var(--cv--margin-xs);
+}
+
+@media (min-width: 992px) {
+    .education>ul {
+        flex-direction: column;
+        width: 70%;
+    }
+}

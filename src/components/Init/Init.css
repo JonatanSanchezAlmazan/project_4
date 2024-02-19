@@ -1,0 +1,9 @@
+.sectionInit>img {
+    width: 200px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.sectionInit>h1 {
+    margin: auto;
+}
