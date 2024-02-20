@@ -9,6 +9,7 @@ export const Header = () => {
     const nav = document.createElement("nav");
     const ul = document.createElement("ul");
     navLinks.forEach((link) => {
+
         Link(ul, link)
     })
     nav.append(ul);
